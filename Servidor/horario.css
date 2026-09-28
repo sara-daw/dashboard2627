@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f5f7;
+    color: #222;
+    padding: 30px;
+}
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+header h1 {
+    margin-bottom: 8px;
+}
+header p {
+    color: #666;
+}
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+h2 {
+    margin-bottom: 15px;
+}
+.horario {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    overflow-x: auto;
+}
+table {
+    width: 100%;
+    min-width: 850px;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+th,
+td {
+    border: 1px solid #bbb;
+    padding: 15px;
+    text-align: left;
+    vertical-align: top;
+    height: 95px;
+}
+thead th {
+    height: auto;
+    padding: 14px 10px;
+    text-align: center;
+    background-color: #222;
+    color: white;
+}
+tbody th {
+    width: 70px;
+    text-align: center;
+    background-color: #f0f1f3;
+    color: #555;
+}
+td strong {
+    font-size: 15px;
+}
+td br + strong {
+    margin-top: 8px;
+}
+td {
+    font-size: 13px;
+    line-height: 1.4;
+}
+.informacion {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 25px;
+    margin-top: 25px;
+}
+.bloque {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+ul {
+    padding-left: 25px;
+}
+li {
+    padding: 7px 0;
+    line-height: 1.4;
+}
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #777;
+    font-size: 14px;
+}
+
+.rosa {
+    background-color: #f8b6c8;
+}
+
+.azul {
+    background-color: #a9d8f5;
+}
+
+.verde {
+    background-color: #b7e4c7;
+}
+
+.amarillo {
+    background-color: #ffe89a;
+}
+
+.naranja {
+    background-color: #ffc58a;
+}
+
+.morado {
+    background-color: #d5b4e8;
+}
+
+.rojo {
+    background-color: #f5a6a6;
+}
+
+.gris {
+    background-color: #d3d3d3;
+}
+
+.rosa2 {
+    background-color: #e8b5d6;
+}

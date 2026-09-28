@@ -1,0 +1,58 @@
+<!-- hacer el horario de una clase solo se van a mostrar los profesores de esa clase, una asignatura la dan varios profesores -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asignaturas</title>
+</head>
+<body>
+    <h1>Asignaturas</h1>
+
+    <form action="formulario2.php" method="get">
+
+        <input type="radio" name="clase" value="1ESO" id="1eso">
+        <label for="1eso">1º ESO</label><br>
+
+        <input type="radio" name="clase" value="2ESO" id="2eso">
+        <label for="2eso">2º ESO</label><br>
+
+        <input type="radio" name="clase" value="3ESO" id="3eso">
+        <label for="3eso">3º ESO</label><br>
+
+        <input type="radio" name="clase" value="4ESO" id="4eso">
+        <label for="4eso">4º ESO</label><br>
+
+        <input type="radio" name="clase" value="1BACH" id="1bach">
+        <label for="1bach">1º Bachillerato</label><br>
+
+        <input type="radio" name="clase" value="2BACH" id="2bach">
+        <label for="2bach">2º Bachillerato</label><br>
+
+        <br>
+
+        <label>Profesores:</label><br>
+
+        <input type="checkbox" name="profesor[]" value="Isabel" id="isabel">
+        <label for="isabel">Isabel</label><br>
+
+        <input type="checkbox" name="profesor[]" value="Alberto" id="alberto">
+        <label for="alberto">Alberto</label><br>
+
+        <input type="checkbox" name="profesor[]" value="Ernesto" id="ernesto">
+        <label for="ernesto">Ernesto</label><br>
+
+        <input type="checkbox" name="profesor[]" value="Santiago" id="santiago">
+        <label for="santiago">Santiago</label><br>
+
+        <input type="checkbox" name="profesor[]" value="Luis" id="luis">
+        <label for="luis">Luis</label><br>
+
+        <br><br>
+
+        <input type="submit" value="Enviar">
+
+    </form>
+</body>
+</html>

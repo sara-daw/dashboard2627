@@ -1,0 +1,14 @@
+form {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+select {
+    text-align: center;
+    width: 200px;
+}
+
+input, textarea, select {
+    display: inline;
+    width: 200px;
+}
