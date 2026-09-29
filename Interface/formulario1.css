@@ -1,14 +1,36 @@
+/* EN LÍNEA + CON WIDTH */
+
+label {
+    width: 200px;
+}
+
+
+/* EN LÍNEA + SIN WIDTH */
+/*
+label {
+}
+*/
+
+/* EN BLOQUE + CON WIDTH */
+
+h1 {
+    width: 200px;
+}
+
+
+/* EN BLOQUE + SIN WIDTH */
+/*
+h1 {
+}
+*/
+
 form {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 0 25% 0 25%;
+    margin: 0 20% 0 20%;
+    background-color: red;
+    /*box-sizing: border-box; prueba de content-box y border box*/
 }
 
 select {
     text-align: center;
-    width: 200px;
-}
-
-input, textarea, select {
-    display: inline;
-    width: 200px;
 }
